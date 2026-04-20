@@ -42,11 +42,10 @@ init_VA:
     st r2, r1
     xor r0, r0
     xor r2, r2
-    addi 7
-    addi 7
-    addi 7
-    addi 7
-    addi 7
+    addi 4
+    add r2, r0
+    addi -1
+    slr r2, r0
     add r2, r0
 
     ; Lógica para verificar se já alcançou 10 posições de vetor
